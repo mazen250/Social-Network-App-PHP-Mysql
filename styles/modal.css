@@ -1,0 +1,94 @@
+
+.msgContainer{
+    background-color: rgb(223, 221, 219);
+    max-height: 70%;
+    width: 93%;
+    border-radius: 5px;
+    margin: auto;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+.messageModal {
+    width: 90%;
+  margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.sender{
+    text-align: left;
+    background-color: rgb(255, 251, 246);
+    width: 50%;
+    margin:10px;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center  ;
+}
+
+.receiver{
+    text-align: right;
+    background-color: rgb(67, 82, 87);
+    width: 50%;
+    margin:10px;
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center; 
+    color: white;
+}
+/* 
+.footer {
+    position: fixed;
+} */
+
+.profile {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+form input{
+    width:70%;
+    margin:auto;
+    margin-top:10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border: 1px solid rgb(248, 248, 248);
+    height: 30px;
+}
+
+form .send{
+    width:12%;
+    margin:auto;
+   margin-top: 10px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 5px;
+    border: 1px solid rgb(248, 248, 248);
+    height: 30px;
+    color: white;
+
+}
+
+.modalbtn{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid black;
+    border-color: rgb(252, 252, 252);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    color: black;
+    display: grid;
+    align-items: center;
+}

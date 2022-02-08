@@ -1,0 +1,53 @@
+.bio{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+.bio h1{
+    font-weight: 400;
+}
+.bio h2{
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.profile{
+    border-color: rgb(160, 155, 155);
+    border: 2px grey solid;
+    border-radius: 20px;
+    width: 50%;
+    border: black 1px solid;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+.logout2{
+    min-width: 120px;
+    min-height: 30px;
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+    color: black;
+display: grid;
+align-items: center;
+border-radius: 5px;
+transition: all 0.5s ease-in-out;
+}
+.logout2:hover{
+    background-color: rgb(117, 117, 117);
+    color: white;
+}

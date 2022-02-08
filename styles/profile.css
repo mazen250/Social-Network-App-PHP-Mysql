@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+.header{
+    background-color: rgb(207, 207, 207);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.header h1{
+font-weight: 400;    
+
+}
+.footer{
+    display: grid;
+    align-items: center;
+    bottom: 0;
+    /* position: fixed; */
+    width: 100%;
+    height: 30px;
+    background-color: rgb(207, 207, 207);
+    margin-top: 100px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.logout {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid black;
+    border-color: rgb(252, 252, 252);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    }
+    .logout:hover{
+        background-color: rgb(75, 70, 70);
+        color: white;
+        border-color:rgb(75, 70, 70) ;
+        transform: scale(1.05);
+    }
+
+    .postImage{
+        width: 70%;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .posts{
+        border: 1px solid black;
+        width: 30%;
+        margin: auto;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio{
+        background-color: rgb(90, 90, 90);
+        color: white;
+        width: 45%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 15px;
+        
+    }
+    .bio h1{
+        font-weight: 400;
+    }
+    .bio h2{
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+    .profile{
+        border-color: rgb(160, 155, 155);
+        border: 2px grey solid;
+        border-radius: 50%;
+        width: 100px;
+    }
+
+    .logout{
+        width: 120px;
+        height: 30px;
+        background-color: rgb(252, 252, 252);
+        border: 1px solid black;
+        border-color: rgb(228, 228, 228);
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        text-decoration: none;
+        color: black;
+        display: grid;
+        align-items: center;
+        
+        }
+        .logout:hover{
+            background-color: rgb(75, 70, 70);
+            color: white;
+            border-color:rgb(75, 70, 70) ;
+            transform: scale(1.05);
+        }
